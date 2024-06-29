@@ -1,4 +1,4 @@
-full_name = 'satoshi nakamoto'  # capitalize(), title()
+ full_name = 'satoshi nakamoto'  # capitalize(), title()
 state = 'mississippi'  # count('ss'), count('pp'), count('ppp')
 url = 'www.python.orgw'  # startswith('ww'), endswith('g'), endswith('.py'), strip('w'), rstrip('w'), lstrip('w')
 sentence = 'I saw a saw saw'  # find('saw'), rfind('saw'), find('jeje'), index('saw'), rindex('saw'), index('jeje')

@@ -12,3 +12,20 @@ ldl ndj zcdl wdl id iwxcz ndj wpkt xbegdkts ndjg eniwdc hzxaah rdcvgpijapixdch
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
            's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+w = str(input('Enter a word:   '))
+d = int(input('¿cuantos espacios deseas desplazar?:  '))
+k = int(input('Que deseas hacer ¿Encriptar (1) o desencriptar (2)?:  '))
+if k ==1:
+    encr = 0
+    w
+    for letters in range(0,26):
+
+    print(encr)
+
+else:
+    des =
+    print(des)
+w = w.lower()
+
+

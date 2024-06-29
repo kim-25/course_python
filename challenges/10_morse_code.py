@@ -18,3 +18,25 @@ MORSE_CODE_DICT = {'A':'.-', 'B':'-...',
                     '(':'-.--.', ')':'-.--.-'}
 
 
+
+word = input('Enter a word:  ').upper()
+
+def letter(string):
+    wor1 = ""
+    for x in word:
+        if x == "":
+            wor1 += ("")
+        else:
+            for y in MORSE_CODE_DICT:
+                if x == y:
+                    wor1 +=
+(MORSE_CODE_DICT[x])
+    for z in wor1:
+        if z == '.':
+            playsound("short.wav")
+            print(z,end = "")
+            sleep(0.5)
+        elif z == "":
+
+            
+

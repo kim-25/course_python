@@ -1,3 +1,10 @@
+import random
+
+f = input('Choose your position:  paper(p), scissors (s) or rock(r):   ')
+
+if f
+
+
 
 
 rock = '''
@@ -27,3 +34,10 @@ scissors = '''
 ---.__(___)
 '''
 
+c = ['p','s','r']
+x = random.choice(c)
+p = paper
+f = input('Choose your position:  paper(p), scissors (s) or rock(r):   ')
+
+if f == x:
+    print('win')

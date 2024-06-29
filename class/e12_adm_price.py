@@ -8,4 +8,21 @@ group from the user,with one age entered on each line.
 The user will enter a blank line to indicate that there are no more guests in the group.
 Then your program should display the admission cost for the group with an appropriate message.
 """
+cost = 0
+
+while True:
+    age = input('Enter a age: ')
+    if age == '':
+        break
+    age = int(age)
+    if age <= 2:
+        continue
+    elif 3 <= age <=12:
+        cost += 14
+    elif age >= 65:
+        cost += 18
+    else:
+        cost += 23
+    print(cost)
+
 

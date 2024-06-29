@@ -17,5 +17,16 @@ It should work something like this:
 Try to solve this exercise without using any third-party libraries (without using pandas, for example).
 
 """
+def add(matrix1, matrix2):
+    result = [[] for _ in range(len(matrix1))]
+    k, j = 0, 0
+    while k < len(matrix1):
+        while j < len(matrix1[k]):
+            result[k].append(matrix1[k][j] + matrix2[k][j])
+            j +=1
+        j = 0
+        k += 1
+    return result
+
 
 
