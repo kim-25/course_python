@@ -1,7 +1,7 @@
-#realizar un programa que calcule el binomio de newton
-
 import re
 import math
+#realizar un programa que calcule el binomio de newton
+
 
 def parse_term(term):
     match = re.match(r'([+-]?\d*\.?\d*)([a-z]*)', term)
